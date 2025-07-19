@@ -1,6 +1,6 @@
-package com.bharath.sniply.controllers;
+package com.bharath.sniply.web.controllers;
 
-import com.bharath.sniply.models.CreateSnipRequest;
+import com.bharath.sniply.dto.CreateSnipRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,4 +16,6 @@ public class SnipController {
         System.out.println(createSnipRequest.getCode());
         return ResponseEntity.status(200).build();
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.bharath.sniply.models;
+package com.bharath.sniply.dto;
 
 public class CreateSnipRequest {
     private String code;
